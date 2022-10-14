@@ -1,0 +1,26 @@
+{
+  "name": "jetcode",
+  "displayName": "JetCode",
+  "description": "A jetbrains inspired vscode theme.",
+  "publisher": "justanotherbyte",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justanotherbyte/jetcode"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JetCode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetCode-color-theme.json"
+      }
+    ]
+  }
+}
